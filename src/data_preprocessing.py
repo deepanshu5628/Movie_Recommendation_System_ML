@@ -10,7 +10,6 @@ from nltk.corpus import stopwords   #to get all the stopwords
 from nltk.tokenize import word_tokenize #to token all the words 
 from nltk.stem import PorterStemmer #for perfrom stemming/lemization
 import json
-from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
 import joblib
 
 
@@ -145,47 +144,31 @@ def text_processing(df:pd.DataFrame)->pd.DataFrame:
     try:
         logger.debug("starting of text_processsing fxn")
         df["overview"]=df["overview"].apply(_lower_case)
-        df["overveiw"]=df["overview"].apply(_remove_punctuations)
-        df["overveiw"]=df["overview"].apply(_remove_stop_words)
-        df["overveiw"]=df["overview"].apply(_perfrom_lemitization)
+        df["overview"]=df["overview"].apply(_remove_punctuations)
+        df["overview"]=df["overview"].apply(_remove_stop_words)
+        df["overview"]=df["overview"].apply(_perfrom_lemitization)
         logger.debug("ending of text_processsing fxn")
         return df
     except Exception as e :
         logger.error("error in the transfrom_text_data")
         raise
 
-def perfrom_tokenization(df:pd.DataFrame,istfidf:bool):
-    """this takes 2 input dataframe , tfidf==True,bew==False"""
-    try:
-        if istfidf:
-            vectorizor=TfidfVectorizer(max_features=5000)
-        else:
-            vectorizor=CountVectorizer(max_features=5000)
-        vectors=vectorizor.fit_transform(df["overview"])
-        logger.debug("tfider vectorization technique is applied")
-        return vectorizor,vectors
-    except Exception as e:
-        logger.error("error in the perform_tokenzation")
-        raise
-
-def save_artifact(vectorizor,vectors,file_path)->None:
-    """save the vectors and fitted vectorizer to disk"""
+def save_data(df:pd.DataFrame,file_path:str,file_name:str)->None:
     try:
         os.makedirs(file_path,exist_ok=True)
-        joblib.dump(vectorizor,os.path.join(file_path,"vectorizor.joblib"))
-        joblib.dump(vectors,os.path.join(file_path,"vectors.joblib"))
-        logger.debug("vectors and vectorizer saved successfully")
+        df.to_csv(os.path.join(file_path,file_name))
+        logging.debug("csv has been saved successfully")
     except Exception as e:
-        logger.error("error in the save_artifact")
+        logger.error("error in saving data")
         raise
+
 def main():
     try:
         logger.info("START of data_preprocessing pipeline")
         df=load_data("./Data/raw/raw_df.csv")
         df=data_processing(df)
         df=text_processing(df)
-        vectorizor,vectors=perfrom_tokenization(df,True)
-        save_artifact(vectorizor,vectors,"artifacts")
+        save_data(df,"./data/processed","processed.csv")
         logger.info("END of data_preprocessing pipeline")
     except Exception as e:
         logger.error("error in data_preprocessing pipeline")
