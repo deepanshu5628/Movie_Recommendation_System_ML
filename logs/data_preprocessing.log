@@ -1,0 +1,13 @@
+2026-07-21 01:30:13,577 - data_preprocessing - INFO - START of data_preprocessing pipeline
+2026-07-21 01:30:13,577 - data_preprocessing - DEBUG - started of load_Data
+2026-07-21 01:30:14,143 - data_preprocessing - DEBUG - end of load_Data
+2026-07-21 01:30:14,143 - data_preprocessing - DEBUG - starting of data_processing fxn
+2026-07-21 01:30:14,633 - data_preprocessing - DEBUG - column transformation is done
+2026-07-21 01:30:14,639 - data_preprocessing - DEBUG - all the columsn has been merged into summary columns
+2026-07-21 01:30:14,686 - data_preprocessing - DEBUG - final columns has been choosen
+2026-07-21 01:30:14,701 - data_preprocessing - DEBUG - ending of data_processing fxn
+2026-07-21 01:30:14,712 - data_preprocessing - DEBUG - starting of text_processsing fxn
+2026-07-21 01:30:23,685 - data_preprocessing - DEBUG - ending of text_processsing fxn
+2026-07-21 01:30:24,059 - data_preprocessing - DEBUG - tfider vectorization technique is applied
+2026-07-21 01:30:24,162 - data_preprocessing - DEBUG - vectors and vectorizer saved successfully
+2026-07-21 01:30:24,162 - data_preprocessing - INFO - END of data_preprocessing pipeline
