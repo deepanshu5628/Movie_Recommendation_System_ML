@@ -1,0 +1,19 @@
+2026-07-20 18:06:27,990 - data_ingestion - INFO - starting of data_ingestion
+2026-07-20 18:06:27,990 - data_ingestion - DEBUG - inside the load_data fxn
+2026-07-20 18:06:27,990 - data_ingestion - DEBUG - inside the loop
+2026-07-20 18:06:47,782 - data_ingestion - DEBUG - df's has been loaded successfully 
+2026-07-20 18:06:47,782 - data_ingestion - DEBUG - the csv has been added to array 
+2026-07-20 18:06:47,783 - data_ingestion - DEBUG - inside the preprocessing_data fxn
+2026-07-20 18:06:47,896 - data_ingestion - DEBUG - completed the prePrcess
+2026-07-20 18:06:47,897 - data_ingestion - DEBUG - started the save_data fxn
+2026-07-20 18:06:48,703 - data_ingestion - DEBUG - the df has been saved to data/raw/raw_df.csv
+2026-07-20 18:11:30,342 - data_ingestion - INFO - START of data_ingestion
+2026-07-20 18:11:30,342 - data_ingestion - DEBUG - inside the load_data fxn
+2026-07-20 18:11:30,342 - data_ingestion - DEBUG - inside the loop
+2026-07-20 18:11:41,212 - data_ingestion - DEBUG - df's has been loaded successfully 
+2026-07-20 18:11:41,212 - data_ingestion - DEBUG - the csv has been added to array 
+2026-07-20 18:11:41,212 - data_ingestion - DEBUG - inside the preprocessing_data fxn
+2026-07-20 18:11:41,334 - data_ingestion - DEBUG - completed the prePrcess
+2026-07-20 18:11:41,334 - data_ingestion - DEBUG - started the save_data fxn
+2026-07-20 18:11:42,147 - data_ingestion - DEBUG - the df has been saved to data/raw/raw_df.csv
+2026-07-20 18:11:42,147 - data_ingestion - INFO - END of data_ingestion
