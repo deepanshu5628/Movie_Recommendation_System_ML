@@ -1,0 +1,89 @@
+2026-07-21 02:43:26,180 - model - INFO - Feature enginerring started
+2026-07-21 02:43:26,181 - model - INFO - Feature enginerring ended
+2026-07-21 02:52:24,855 - model - INFO - Feature enginerring started
+2026-07-21 02:53:48,472 - model - INFO - Feature enginerring started
+2026-07-21 02:53:59,725 - model - INFO - Feature enginerring started
+2026-07-21 02:54:10,762 - model - INFO - Feature enginerring started
+2026-07-21 02:54:20,559 - model - INFO - Feature enginerring started
+2026-07-21 02:54:43,537 - model - INFO - Feature enginerring started
+2026-07-21 02:54:46,121 - model - DEBUG - fetch the artifacts successfully
+2026-07-21 02:54:46,122 - model - INFO - Feature enginerring ended
+2026-07-21 02:56:30,858 - model - INFO - Feature enginerring started
+2026-07-21 02:56:32,894 - model - DEBUG - fetch the artifacts successfully
+2026-07-21 02:56:32,894 - model - INFO - Feature enginerring ended
+2026-07-21 02:56:40,327 - model - INFO - Feature enginerring started
+2026-07-21 02:56:40,328 - model - ERROR - error in loading the artifacts
+2026-07-21 02:56:40,328 - model - CRITICAL - error in model.py
+2026-07-21 02:56:51,021 - model - INFO - Feature enginerring started
+2026-07-21 02:56:51,022 - model - ERROR - error in loading the artifacts
+2026-07-21 02:56:51,022 - model - CRITICAL - error in model.py
+2026-07-21 02:56:56,008 - model - INFO - Feature enginerring started
+2026-07-21 02:56:56,009 - model - ERROR - error in loading the artifacts
+2026-07-21 02:56:56,010 - model - CRITICAL - error in model.py
+2026-07-21 02:57:01,725 - model - INFO - Feature enginerring started
+2026-07-21 02:57:04,020 - model - DEBUG - fetch the artifacts successfully
+2026-07-21 02:57:04,021 - model - INFO - Feature enginerring ended
+2026-07-21 03:18:28,821 - model - INFO - Feature enginerring started
+2026-07-21 03:18:28,909 - model - DEBUG - data loaded successfully
+2026-07-21 03:18:29,287 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:18:29,288 - model - CRITICAL - error in model.py
+2026-07-21 03:19:05,912 - model - INFO - Feature enginerring started
+2026-07-21 03:19:06,000 - model - DEBUG - data loaded successfully
+2026-07-21 03:19:06,406 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:19:06,407 - model - INFO - Feature enginerring ended
+2026-07-21 03:21:09,102 - model - INFO - Feature enginerring started
+2026-07-21 03:21:09,216 - model - DEBUG - data loaded successfully
+2026-07-21 03:21:09,590 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:21:10,384 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:21:10,384 - model - INFO - Feature enginerring ended
+2026-07-21 03:31:56,258 - model - INFO - Feature enginerring started
+2026-07-21 03:31:56,339 - model - DEBUG - data loaded successfully
+2026-07-21 03:31:56,769 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:31:57,500 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:31:57,518 - model - ERROR - error in the main_function
+2026-07-21 03:31:57,519 - model - CRITICAL - error in model.py
+2026-07-21 03:32:14,314 - model - INFO - Feature enginerring started
+2026-07-21 03:32:14,408 - model - DEBUG - data loaded successfully
+2026-07-21 03:32:14,866 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:32:15,743 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:32:15,754 - model - INFO - Feature enginerring ended
+2026-07-21 03:32:52,422 - model - INFO - Feature enginerring started
+2026-07-21 03:32:52,525 - model - DEBUG - data loaded successfully
+2026-07-21 03:32:52,887 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:32:53,565 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:32:53,573 - model - INFO - Feature enginerring ended
+2026-07-21 03:33:34,580 - model - INFO - Feature enginerring started
+2026-07-21 03:33:34,660 - model - DEBUG - data loaded successfully
+2026-07-21 03:33:35,035 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:33:35,634 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:33:35,644 - model - INFO - Feature enginerring ended
+2026-07-21 03:34:38,642 - model - INFO - Feature enginerring started
+2026-07-21 03:34:38,730 - model - DEBUG - data loaded successfully
+2026-07-21 03:34:39,167 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:34:39,858 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:34:39,866 - model - INFO - Feature enginerring ended
+2026-07-21 03:35:14,067 - model - INFO - Feature enginerring started
+2026-07-21 03:35:14,165 - model - DEBUG - data loaded successfully
+2026-07-21 03:35:14,612 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:35:15,356 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:35:15,365 - model - INFO - Feature enginerring ended
+2026-07-21 03:35:55,112 - model - INFO - Feature enginerring started
+2026-07-21 03:35:55,206 - model - DEBUG - data loaded successfully
+2026-07-21 03:35:55,607 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:35:56,283 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:35:56,290 - model - INFO - Feature enginerring ended
+2026-07-21 03:36:54,191 - model - INFO - Feature enginerring started
+2026-07-21 03:36:54,276 - model - DEBUG - data loaded successfully
+2026-07-21 03:36:54,672 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:36:55,346 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:36:55,357 - model - INFO - Feature enginerring ended
+2026-07-21 03:37:05,082 - model - INFO - Feature enginerring started
+2026-07-21 03:37:05,164 - model - DEBUG - data loaded successfully
+2026-07-21 03:37:05,544 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 03:37:06,186 - model - DEBUG - distance is calculated successfully
+2026-07-21 03:37:06,194 - model - INFO - Feature enginerring ended
+2026-07-21 04:00:00,093 - model - INFO - Feature enginerring started
+2026-07-21 04:00:00,189 - model - DEBUG - data loaded successfully
+2026-07-21 04:00:00,604 - model - DEBUG - tfider vectorization technique is applied
+2026-07-21 04:00:00,722 - model - DEBUG - vectors and vectorizer saved successfully
+2026-07-21 04:00:00,722 - model - INFO - Feature enginerring ended

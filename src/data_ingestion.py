@@ -48,7 +48,7 @@ def load_data(movies_url:str,credit_url:str)->dict:
         logger.debug("df's has been loaded successfully ")
         total_df.update({"movies_df":movies_df,"credit_df":credit_df})
         
-        logger.debug("the csv has been added to array ")
+        logger.debug("the csv has been added to dict")
         return total_df
     except Exception as e:
         logger.error("error occuered in the loop")
